@@ -465,7 +465,6 @@ footer {
     display: block;
   }
 
-  /* Ajuste para os ícones de idioma */
   .language-icons {
     display: flex;
     justify-content: center;
@@ -479,14 +478,12 @@ footer {
     height: auto;
   }
 
-  /* Ajustes para o nome principal */
   .nome1,
   .nome2,
   .nome3 {
-    font-size: 32px;
+    font-size: 45px;
   }
 
-  /* Ajuste para a descrição */
   .descricao {
     font-size: 18px;
   }
@@ -503,7 +500,6 @@ footer {
     text-align: center;
   }
 
-  /* Ajustes para os textos de apresentação */
   .eu {
     font-size: 14px;
     line-height: 1.5;
@@ -511,9 +507,8 @@ footer {
     padding: 0 15px;
   }
 
-  /* Ajustes para os títulos e subtítulos */
   .titulo {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .subtitulo,
@@ -521,7 +516,6 @@ footer {
     font-size: 20px;
   }
 
-  /* Reorganização dos ícones de habilidades em duas colunas */
   .icones {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -530,7 +524,6 @@ footer {
     padding: 0 10px;
   }
 
-  /* Centralizar o último ícone se for ímpar */
   .icones .btn-svg:last-child:nth-child(odd) {
     grid-column: 1 / span 2;
     justify-self: center;
@@ -548,44 +541,6 @@ footer {
     height: auto;
   }
 
-  /* Ajuste do efeito de texto para os ícones de habilidades */
-  .icones .btn-svg span {
-    font-size: 12px;
-    width: 100%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-  }
-
-  /* Animação balanceada para ambos os lados */
-  .icones .btn-svg span {
-    animation: balance-marquee 4s ease-in-out infinite alternate;
-    padding: 0 5px;
-  }
-
-  @keyframes balance-marquee {
-    0% {
-      transform: translateX(10%);
-    }
-
-    100% {
-      transform: translateX(-10%);
-    }
-  }
-
-  /* Aplica a animação apenas para textos específicos que são mais longos */
-  #boot,
-  #angular,
-  #javascript,
-  #type,
-  #spring,
-  #post,
-  #oracle {
-    animation: balance-marquee 4s ease-in-out infinite alternate;
-  }
-
-  /* Ajustes para os ícones de contato */
   .icones-contato {
     display: flex;
     flex-wrap: wrap;
@@ -594,7 +549,7 @@ footer {
   }
 
   .icones-contato .btn-svg img {
-    width: 40px;
+    width: 65px;
     height: auto;
   }
 
@@ -602,7 +557,6 @@ footer {
     font-size: 14px;
   }
 
-  /* Ajustes para a navegação */
   .navbar-collapse {
     flex-direction: column;
   }
@@ -620,12 +574,10 @@ footer {
     font-size: 16px;
   }
 
-  /* Ajustes para o footer */
   footer p {
     font-size: 12px;
   }
 
-  /* Ajuste para o botão do site */
   .navbar-brand img {
     width: 30px;
     height: auto;
