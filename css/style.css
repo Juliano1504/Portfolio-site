@@ -258,7 +258,11 @@
 #spring,
 #my,
 #post,
-#oracle {
+#oracle,
+#docker,
+#linux,
+#arduino,
+#c {
   font-weight: bold;
   font-size: 30px;
 }
@@ -355,6 +359,42 @@
 
 #oracle {
   background: linear-gradient(270deg, #f80000, white, #f80000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 600% 600%;
+  animation: gradientShift 12s ease infinite;
+}
+
+#docker {
+  background: linear-gradient(270deg, #0db7ed, #ffffff, #0db7ed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 600% 600%;
+  animation: gradientShift 12s ease infinite;
+}
+
+#linux {
+  background: linear-gradient(270deg, #ffcc00, #ffffff, #ffcc00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 600% 600%;
+  animation: gradientShift 12s ease infinite;
+}
+
+#arduino {
+  background: linear-gradient(270deg, #00979c, #ffffff, #00979c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 600% 600%;
+  animation: gradientShift 12s ease infinite;
+}
+
+#c {
+  background: linear-gradient(270deg, #0066cc, #ffffff, #0066cc);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
